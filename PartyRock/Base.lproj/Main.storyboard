@@ -157,14 +157,27 @@
                                     <constraint firstAttribute="height" constant="210" id="r5y-dP-2Oi"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzI-K3-ddn">
+                                <rect key="frame" x="0.0" y="240" width="320" height="31.5"/>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="89b-1V-B5A" firstAttribute="top" secondItem="RIh-JY-Abx" secondAttribute="top" id="17P-Sm-BRP"/>
+                            <constraint firstAttribute="trailing" secondItem="bzI-K3-ddn" secondAttribute="trailing" id="DEf-VF-TIK"/>
+                            <constraint firstItem="bzI-K3-ddn" firstAttribute="top" secondItem="89b-1V-B5A" secondAttribute="bottom" constant="30" id="SPm-Ie-LVI"/>
                             <constraint firstAttribute="trailing" secondItem="89b-1V-B5A" secondAttribute="trailing" id="UrZ-tJ-L8b"/>
+                            <constraint firstItem="bzI-K3-ddn" firstAttribute="leading" secondItem="RIh-JY-Abx" secondAttribute="leading" id="gYC-5h-QRI"/>
                             <constraint firstItem="89b-1V-B5A" firstAttribute="leading" secondItem="RIh-JY-Abx" secondAttribute="leading" id="wmp-x6-OTH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="bzI-K3-ddn" id="ePF-5M-S8S"/>
+                        <outlet property="webView" destination="89b-1V-B5A" id="URR-UI-MDv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5t-LY-Pgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

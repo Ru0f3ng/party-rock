@@ -12,6 +12,8 @@
 		4D8DB92D1E7ECBE2009575E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8DB92B1E7ECBE2009575E4 /* Main.storyboard */; };
 		4D8DB92F1E7ECBE2009575E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8DB92E1E7ECBE2009575E4 /* Assets.xcassets */; };
 		4D8DB9321E7ECBE3009575E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8DB9301E7ECBE3009575E4 /* LaunchScreen.storyboard */; };
+		4D8DB93E1E7ECC87009575E4 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D8DB93D1E7ECC87009575E4 /* still time.ttf */; };
+		4D8DB9401E7ED153009575E4 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DB93F1E7ED153009575E4 /* VideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4D8DB92E1E7ECBE2009575E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8DB9311E7ECBE3009575E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8DB9331E7ECBE3009575E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8DB93D1E7ECC87009575E4 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		4D8DB93F1E7ED153009575E4 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		4D8DB9261E7ECBE2009575E4 /* PartyRock */ = {
 			isa = PBXGroup;
 			children = (
+				4D8DB93C1E7ECC38009575E4 /* files */,
+				4D8DB9391E7ECC09009575E4 /* model */,
+				4D8DB93A1E7ECC12009575E4 /* view */,
+				4D8DB93B1E7ECC17009575E4 /* controller */,
 				4D8DB9271E7ECBE2009575E4 /* AppDelegate.swift */,
-				4D8DB9291E7ECBE2009575E4 /* ViewController.swift */,
 				4D8DB92B1E7ECBE2009575E4 /* Main.storyboard */,
 				4D8DB92E1E7ECBE2009575E4 /* Assets.xcassets */,
 				4D8DB9301E7ECBE3009575E4 /* LaunchScreen.storyboard */,
 				4D8DB9331E7ECBE3009575E4 /* Info.plist */,
 			);
 			path = PartyRock;
+			sourceTree = "<group>";
+		};
+		4D8DB9391E7ECC09009575E4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		4D8DB93A1E7ECC12009575E4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		4D8DB93B1E7ECC17009575E4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D8DB9291E7ECBE2009575E4 /* ViewController.swift */,
+				4D8DB93F1E7ED153009575E4 /* VideoVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		4D8DB93C1E7ECC38009575E4 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8DB93D1E7ECC87009575E4 /* still time.ttf */,
+			);
+			name = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8DB9321E7ECBE3009575E4 /* LaunchScreen.storyboard in Resources */,
+				4D8DB93E1E7ECC87009575E4 /* still time.ttf in Resources */,
 				4D8DB92F1E7ECBE2009575E4 /* Assets.xcassets in Resources */,
 				4D8DB92D1E7ECBE2009575E4 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8DB9401E7ED153009575E4 /* VideoVC.swift in Sources */,
 				4D8DB92A1E7ECBE2009575E4 /* ViewController.swift in Sources */,
 				4D8DB9281E7ECBE2009575E4 /* AppDelegate.swift in Sources */,
 			);
